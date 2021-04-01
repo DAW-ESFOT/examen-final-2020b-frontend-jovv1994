@@ -32,10 +32,6 @@ const mainMenuItems = [
     text: "Inicio",
     to: Routes.HOME,
   },
-  {
-    text: "Sobre Nosotros",
-    to: Routes.ABOUT,
-  },
 ];
 
 //ESTILOS MATERIAL UI

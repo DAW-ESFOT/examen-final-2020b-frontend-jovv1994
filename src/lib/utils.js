@@ -1,6 +1,3 @@
-/**
- * Created by chalosalvador on 10/2/21
- */
 import api from "@/lib/api";
 
 export const fetcher = async (url) => {

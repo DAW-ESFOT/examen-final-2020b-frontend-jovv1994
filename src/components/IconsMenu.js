@@ -86,22 +86,6 @@ const IconsMenu = () => {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      {/*<MenuItem>*/}
-      {/*  <IconButton aria-label="show 4 new mails" color="inherit">*/}
-      {/*    <Badge badgeContent={4} color="secondary">*/}
-      {/*      <MailIcon />*/}
-      {/*    </Badge>*/}
-      {/*  </IconButton>*/}
-      {/*  <p>Messages</p>*/}
-      {/*</MenuItem>*/}
-      {/*<MenuItem>*/}
-      {/*  <IconButton aria-label="show 11 new notifications" color="inherit">*/}
-      {/*    <Badge badgeContent={11} color="secondary">*/}
-      {/*      <NotificationsIcon />*/}
-      {/*    </Badge>*/}
-      {/*  </IconButton>*/}
-      {/*  <p>Notifications</p>*/}
-      {/*</MenuItem>*/}
       <MenuItem onClick={handleMenuAccountOpen}>
         <IconButton
           aria-label="account of current user"
@@ -119,18 +103,6 @@ const IconsMenu = () => {
   return (
     <>
       <div className={classes.sectionDesktop}>
-        {/*<IconButton aria-label="show 4 new mails" color="inherit">*/}
-        {/*  <Badge badgeContent={4} color="secondary">*/}
-        {/*    <MailIcon />*/}
-        {/*  </Badge>*/}
-        {/*</IconButton>*/}
-
-        {/*<IconButton aria-label="show 17 new notifications" color="inherit">*/}
-        {/*  <Badge badgeContent={17} color="secondary">*/}
-        {/*    <NotificationsIcon />*/}
-        {/*  </Badge>*/}
-        {/*</IconButton>*/}
-
         {user ? (
           <MenuItem onClick={handleMenuAccountOpen} id="account-menu-button">
             <AccountCircle style={{ marginRight: 5 }} /> {user.name}
